@@ -16,8 +16,8 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 
 import numpy as np
 matrix=eval(input())
-one_matrix=np.linalg.norm(matrix,1)
-print("{:.2f}".format(one_matrix))
+one_form=np.linalg.norm(matrix,1)
+print("{:.2f}".format(one_form))
 
 
 # 2-Norm of a Matrix
@@ -32,8 +32,8 @@ print("{:.2f}".format(two_matrix))
 
 import numpy as np
 matrix=eval(input())
-infinity_matrix=np.linalg.norm(matrix,np.inf)
-print("{:.2f}".format(infinity_matrix))
+inf_form=np.linalg.norm(matrix,np.inf)
+print("{:.2f}".format(inf_form))
 
 
 
